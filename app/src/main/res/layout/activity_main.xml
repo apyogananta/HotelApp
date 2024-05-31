@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#a00"
+            android:layout_gravity="top|end"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$94"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_gravity="fill_horizontal"
+                android:textStyle="bold"
+                android:layout_marginEnd="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textColor="#fff"
+                android:textSize="13sp">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Qunci Villas"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Qunci Villas is the Beachfront 5 Star Boutique Hotel of Lombok, offering peace and tranquility in a stylish, tropical setting. From idyllic ocean view rooms to luxurious living in our expansive 3-bedroom private villa, Qunci Villas provides you with the accommodation and personal service to make your visit to Lombok truly memorable. The COVID-19 pandemic has brought a huge impact on the business of tourism and food industry all over Indonesia. To respond to this situation Indonesia government introduced the CHSE (Clean, Health, Safety, and Environment) certification program. The CHSE certification serves as a guarantee to tourists and the public that the products and services provided have met protocols for cleanliness, health, safety and environmental sustainability.
+Qunci Rooms
+
+Qunci Villas’ spacious rooms are all located on beautifully landscaped beachfront property and boast either ocean, partial ocean or garden views.
+
+The chic and sophisticated decor of our hotel provides an eclectic mix of modern architecture and traditional decor, providing our guests with Luxurious calm in an Indonesian island setting.All six elegantly appointed sea-facing rooms in our beachfront boutique hotel embrace the restful, marine-inspired décor. Relax on your balcony, perfectly chilled drink in hand, and drift off to the hypnotic sounds of life at the beach. Our resort-style experience includes most meals and beverages for guests' enjoyment; our seafood dinner is a highlight. Not a fan of seafood? Our chefs are on hand to whip up a delicious alternative, made to your liking. Above all its virtues, The Last Word Long Beach's most remarkable feature belongs to our lovely team.
+
+If you seek a Long Beach luxury boutique hotel promising breathtaking moments and soul awakening experiences, look no further. From the comfort of each spacious room, enjoy endless views of the Atlantic Ocean ahead and the Chapman's Peak mountains beyond. Our elegant, spacious Superior Rooms, Elegant Suites and singular Junior Suite provide our guests with the perfect destination for a romantic escapade, fresh-air family bonding or surfing safari with friends. Special occasions invite run-of-house bookings for a sublime experience of this shoreline paradise belonging only to you. Each gorgeous, luxury guest room, replete with en-suite bathroom, locally inspired botanical amenities, flatscreen TV, mini-bar, hairdryer, ample wardrobe space, personal safe and private balcony invites repose.">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="#ffffff"
+        android:text="Book Now"/>
+</LinearLayout>
